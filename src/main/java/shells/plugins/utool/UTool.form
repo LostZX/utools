@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="shells.plugins.utool.UTool">
+  <grid id="27dc6" binding="corePanel" layout-manager="GridLayoutManager" row-count="6" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="811" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="ac4c2" class="org.fife.ui.rtextarea.RTextScrollPane" binding="resultTextScrollPane">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="8" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <lineNumbersEnabled value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ab0c0" class="core.ui.component.RTextArea" binding="resultTextArea">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="d54cf" class="javax.swing.JButton" binding="seeyonButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="50"/>
+            <maximum-size width="200" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="致远oa数据库解密"/>
+        </properties>
+      </component>
+      <component id="5c674" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="输入配置文件位置"/>
+        </properties>
+      </component>
+      <component id="e56d7" class="javax.swing.JTextField" binding="seeyon_text">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="maybe D:/Seeyon/A8/base/conf/datasourceCtp.properties"/>
+        </properties>
+      </component>
+      <component id="1bd7a" class="javax.swing.JButton" binding="ncButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="用友nc数据库解密"/>
+        </properties>
+      </component>
+      <component id="995ff" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="输入配置文件位置"/>
+        </properties>
+      </component>
+      <component id="cc8c6" class="javax.swing.JTextField" binding="nc_text">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="maybe c:/home/ierp/bin/prop.xml"/>
+        </properties>
+      </component>
+      <component id="2c5fc" class="javax.swing.JButton" binding="injectSuo5Button">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="注入suo5"/>
+        </properties>
+      </component>
+      <component id="79d07" class="javax.swing.JButton" binding="sshClientButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ssh命令执行"/>
+        </properties>
+      </component>
+      <component id="ff365" class="javax.swing.JTextField" binding="command_text">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="ifconfig &amp;&amp; whoami"/>
+        </properties>
+      </component>
+      <component id="91a53" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="输入命令"/>
+        </properties>
+      </component>
+      <component id="f4b51" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="输出执行结果文件位置"/>
+        </properties>
+      </component>
+      <component id="80be9" class="javax.swing.JButton" binding="f_sshButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="导入ssh fscan结果"/>
+        </properties>
+      </component>
+      <component id="c34b4" class="javax.swing.JTextField" binding="ssh_file_command">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="ifconfig &amp;&amp; whoami"/>
+        </properties>
+      </component>
+      <component id="716e1" class="javax.swing.JTextField" binding="ssh_file_output_text">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="c:\users\administrator\desktop\123.txt"/>
+        </properties>
+      </component>
+      <component id="20e25" class="javax.swing.JTextField" binding="url_text">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="root@127.0.0.1:22@password"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
