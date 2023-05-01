@@ -1,6 +1,8 @@
 # utool
 
-集成一些杂七杂八的小工具，初衷是为了方便，能在webshell上执行的东西何必下个工具再打开命令行执行呢
+集成一些杂七杂八的godzilla插件，工具地址 https://github.com/BeichenDream/Godzilla
+
+初衷是为了方便，能在webshell上执行的东西何必下个工具再打开命令行执行呢
 
 ## 已支持的功能
 
